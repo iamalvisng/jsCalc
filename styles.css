@@ -1,0 +1,57 @@
+body, div, a {
+    padding:0;
+    margin:0;
+    font-family:"Source Code Pro", Arial, Helvetica, sans-serif;
+    background: #7159DB;
+}
+
+#calculator {
+    width: 310px;
+    height: 460px;
+    margin: 150px auto;
+    background: #FAFAFA;
+}
+
+#calculator a {
+    display: block;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background: #FAFAFA;
+    color: #6C6D6E;
+}
+
+#numbers, #operators {
+    margin: auto;   
+}
+
+#operators a {
+    width: 62px;
+    height: 62px;
+    font-size: 40px;
+    line-height: 62px;
+    color: #FAFAFA;
+    background: #59DB90;
+}
+
+#numbers a {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    padding: 10px;
+    margin: 5px 15px;
+}
+
+#total {
+    height: 70px;
+    width: 300px;
+    margin:auto;
+    background-color:white;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 60px;
+    line-height: 70px;
+    color: #6C6D6E;
+}
